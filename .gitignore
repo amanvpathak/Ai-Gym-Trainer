@@ -1,17 +1,35 @@
-# Python
-__pycache__/
-*.pyc
 
 # Virtual environment
+.venv/
 venv/
-.env/
+
+# Environment variables and API keys
+.env
+.env.*
+!.env.example
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Local database
+data.db
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
 
 # OS files
 .DS_Store
 Thumbs.db
-
-# Database
-Main App/data.db
-
-# Logs
-*.log
+desktop.ini
